@@ -1,0 +1,66 @@
+{
+  "name": "are-you-alive-backend",
+  "version": "1.0.0",
+  "description": "Emergency alert backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "twilio": "^4.19.0",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+```
+
+3. **Paste in Notepad** (Ctrl + V)
+
+4. **Save the file**
+   - Click `File` → `Save As`
+   - Navigate to: `C:\Users\ADMIN\Desktop\are-you-alive-backend`
+   - File name: `package.json`
+   - Save as type: `All Files (*.*)`
+   - Click `Save`
+
+✅ **File 2 done!**
+
+---
+
+### File 3: .gitignore
+
+**Steps:**
+
+1. **Open NEW Notepad**
+
+2. **Copy this code:**
+```
+node_modules/
+.env
+```
+
+3. **Paste in Notepad**
+
+4. **Save the file**
+   - Click `File` → `Save As`
+   - Navigate to: `C:\Users\ADMIN\Desktop\are-you-alive-backend`
+   - File name: `.gitignore` (yes, with the dot!)
+   - Save as type: `All Files (*.*)`
+   - Click `Save`
+
+✅ **File 3 done!**
+
+---
+
+## ✅ Verify Your Files
+
+Open the folder: `C:\Users\ADMIN\Desktop\are-you-alive-backend`
+
+You should see **3 files**:
+```
+📄 server.js
+📄 package.json
+📄 .gitignore
